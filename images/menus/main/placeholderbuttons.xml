@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="placeholderbuttons.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CreditsButton0000" x="0" y="0" width="255" height="631"/>
+	<SubTexture name="CreditsSelect0000" x="255" y="0" width="255" height="631"/>
+	<SubTexture name="PlayButton0000" x="510" y="0" width="255" height="631"/>
+	<SubTexture name="PlaySelect0000" x="765" y="0" width="255" height="631"/>
+	<SubTexture name="OptionsButton0000" x="1020" y="0" width="255" height="631"/>
+	<SubTexture name="OptionsSelect0000" x="1275" y="0" width="255" height="631"/>
+</TextureAtlas>

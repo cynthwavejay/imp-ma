@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" icon="azure" y="290" isGF="false" scale="0.85" camy="15" color="#3E5587" flipX="true" isPlayer="true" gameOverChar="deathreal" holdTime="6" sprite="fear">
+	<anim x="-5" loop="false" y="0" fps="24" anim="FearIdle" name="idle"/>
+	<anim x="27" loop="false" y="26" fps="24" anim="FearUp" name="singUP"/>
+	<anim x="177" loop="false" y="-15" fps="24" anim="FearLeft" name="singLEFT"/>
+	<anim x="32" loop="false" y="11" fps="24" anim="FearRight" name="singRIGHT"/>
+	<anim x="23" loop="false" y="-102" fps="24" anim="FearDown" name="singDOWN"/>
+	<anim x="-76" loop="false" y="-2" fps="24" anim="miss" name="singUPmiss"/>
+	<anim x="-76" loop="false" y="-2" fps="24" anim="miss" name="singLEFTmiss"/>
+	<anim x="-76" loop="false" y="-2" fps="24" anim="miss" name="singRIGHTmiss"/>
+	<anim x="-76" loop="false" y="-2" fps="24" anim="miss" name="singDOWNmiss"/>
+</character>

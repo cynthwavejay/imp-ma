@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 125,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -7572995,
+	"displayName": "High Spirited - Mali",
+	"icon": "pink",
+	"name": "high-spirited",
+	"color": "#8C71FD",
+	"customValues": {}
+}

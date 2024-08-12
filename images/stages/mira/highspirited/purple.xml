@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="purple.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="purpleDance0000" x="0" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0001" x="0" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0002" x="808" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0003" x="808" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0004" x="1616" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0005" x="1616" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0006" x="2424" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0007" x="2424" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0008" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0009" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0010" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0011" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0012" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0013" x="3232" y="0" width="798" height="792"/>
+	<SubTexture name="purpleDance0014" x="3232" y="0" width="798" height="792"/>
+</TextureAtlas>

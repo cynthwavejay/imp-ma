@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplayButtons.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AlibiButton0000" x="0" y="0" width="167" height="295"/>
+	<SubTexture name="AlibiHover0000" x="177" y="0" width="163" height="293"/>
+	<SubTexture name="BlackButton0000" x="350" y="0" width="164" height="295"/>
+	<SubTexture name="BlackHover0000" x="524" y="0" width="163" height="293"/>
+	<SubTexture name="ExitButton0000" x="697" y="0" width="99" height="95"/>
+	<SubTexture name="ExitHover0000" x="806" y="0" width="99" height="95"/>
+	<SubTexture name="GreenButton0000" x="0" y="305" width="280" height="326"/>
+	<SubTexture name="GreenHover0000" x="290" y="305" width="277" height="325"/>
+	<SubTexture name="RedButton0000" x="577" y="305" width="270" height="246"/>
+	<SubTexture name="RedHover0000" x="0" y="641" width="270" height="242"/>
+</TextureAtlas>

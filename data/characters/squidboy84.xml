@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" icon="squidboy84" y="210" camx="0" camy="50" isGF="false" scale="0.8" color="#5BB772" isPlayer="false" gameOverChar="bf" holdTime="6" sprite="squidboy84">
+	<anim x="0" loop="false" y="0" fps="24" anim="SquidIdle" name="idle"/>
+	<anim x="124" loop="false" y="-3" fps="24" anim="SquidLeft" name="singLEFT"/>
+	<anim x="-10" loop="false" y="-114" fps="24" anim="SquidDown" name="singDOWN"/>
+	<anim x="18" loop="false" y="23" fps="24" anim="SquidUp" name="singUP"/>
+	<anim x="-76" loop="false" y="-1" fps="24" anim="SquidRight" name="singRIGHT"/>
+</character>

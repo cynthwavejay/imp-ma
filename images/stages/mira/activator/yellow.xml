@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yellow.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yellDance0000" x="0" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0001" x="0" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0002" x="446" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0003" x="446" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0004" x="892" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0005" x="892" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0006" x="1338" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0007" x="1338" y="0" width="436" height="450"/>
+	<SubTexture name="yellDance0008" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0009" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0010" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0011" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0012" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0013" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellDance0014" x="0" y="460" width="436" height="450"/>
+</TextureAtlas>

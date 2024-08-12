@@ -1,0 +1,21 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 250,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -14452667,
+	"displayName": "Activator",
+	"icon": "green",
+	"name": "Activator",
+	"color": "#237845",
+	"customValues": {
+		"composer": "Snuts",
+		"charter": "Ryze",
+		"trackNum": "2"
+	}
+}

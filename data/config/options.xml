@@ -1,0 +1,5 @@
+<!DOCTYPE codename-mod-options>
+<menu name="Mania Options" desc="Change Impostor! Mania options here.">
+	<checkbox id="windowTrack" name="Window Track" desc="If checked, displays the song name, its number, and composer in the window title." />
+	<checkbox id="trackCredits" name="Track Credits" desc="If checked, displays the song name, the composer, and the charter in a neat box." />
+</menu>

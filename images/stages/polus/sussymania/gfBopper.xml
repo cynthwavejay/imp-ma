@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfBopper.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dance0000" x="0" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0001" x="0" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0002" x="1113" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0003" x="1113" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0004" x="2226" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0005" x="2226" y="0" width="1103" height="834"/>
+	<SubTexture name="dance0006" x="0" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0007" x="0" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0008" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0009" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0010" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0011" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0012" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0013" x="1113" y="844" width="1103" height="834"/>
+	<SubTexture name="dance0014" x="1113" y="844" width="1103" height="834"/>
+</TextureAtlas>

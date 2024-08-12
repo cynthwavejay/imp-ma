@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="black_fake.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FBlackDown0000" x="0" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0001" x="0" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0002" x="1099" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0003" x="1099" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0004" x="2198" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0005" x="2198" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0006" x="3297" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0007" x="3297" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0008" x="4396" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0009" x="4396" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackDown0010" x="5495" y="0" width="1089" height="926"/>
+	<SubTexture name="FBlackIdle0000" x="6594" y="0" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0001" x="6594" y="0" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0002" x="0" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0003" x="0" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0004" x="864" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0005" x="864" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0006" x="1728" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0007" x="1728" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0008" x="2592" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0009" x="2592" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0010" x="3456" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0011" x="3456" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0012" x="3456" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0013" x="3456" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackIdle0014" x="3456" y="1196" width="854" height="1186"/>
+	<SubTexture name="FBlackLeft0000" x="4320" y="1196" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0001" x="4320" y="1196" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0002" x="5886" y="1196" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0003" x="5886" y="1196" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0004" x="0" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0005" x="0" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0006" x="1566" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0007" x="1566" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0008" x="3132" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0009" x="3132" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackLeft0010" x="4698" y="2493" width="1556" height="1287"/>
+	<SubTexture name="FBlackRight0000" x="6264" y="2493" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0001" x="6264" y="2493" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0002" x="0" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0003" x="0" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0004" x="1144" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0005" x="1144" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0006" x="2288" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0007" x="2288" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0008" x="3432" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0009" x="3432" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackRight0010" x="4576" y="3790" width="1134" height="995"/>
+	<SubTexture name="FBlackUp0000" x="5720" y="3790" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0001" x="5720" y="3790" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0002" x="6800" y="3790" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0003" x="6800" y="3790" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0004" x="0" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0005" x="0" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0006" x="1080" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0007" x="1080" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0008" x="2160" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0009" x="2160" y="4795" width="1070" height="980"/>
+	<SubTexture name="FBlackUp0010" x="3240" y="4795" width="1070" height="980"/>
+</TextureAtlas>

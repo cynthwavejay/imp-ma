@@ -1,0 +1,21 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 160,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -1303267,
+	"displayName": "Sussy Mania",
+	"icon": "red",
+	"name": "Sussy-Mania",
+	"color": "#EC1D1D",
+	"customValues": {
+		"composer": "Snuts",
+		"charter": "Ryze",
+		"trackNum": "1"
+	}
+}

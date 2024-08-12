@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mouse.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mouseBasic0000" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0000" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0001" x="123" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0002" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0003" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0004" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0005" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0006" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0007" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0008" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0009" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0010" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0011" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0012" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0013" x="0" y="0" width="113" height="110"/>
+	<SubTexture name="mouseClick0014" x="0" y="0" width="113" height="110"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" icon="red" y="320" isGF="false" scale="0.8" color="#B21F39" isPlayer="false" gameOverChar="bf" holdTime="6" sprite="red_impostor">
+	<anim x="0" loop="false" y="0" fps="24" anim="RedIdle" name="idle"/>
+	<anim x="85" loop="false" y="-23" fps="24" anim="RedLeft" name="singLEFT"/>
+	<anim x="52" loop="false" y="-61" fps="24" anim="RedDown" name="singDOWN"/>
+	<anim x="233" loop="false" y="128" fps="24" anim="RedUp" name="singUP"/>
+	<anim x="109" loop="false" y="14" fps="24" anim="RedRight" name="singRIGHT"/>
+</character>

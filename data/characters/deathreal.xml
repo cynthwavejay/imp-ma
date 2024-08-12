@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" icon="cyan" y="330" isGF="false" scale="0.9" camy="50" color="#31B0D1" flipX="true" isPlayer="true" gameOverChar="azure_blue" holdTime="6" sprite="azure_blue_crewmate">
+	<anim x="80" loop="false" y="-70" fps="24" anim="BFDeathStart" name="firstDeath"/>
+	<anim x="80" loop="false" y="-243" fps="24" anim="BFDeathLoop" name="deathLoop"/>
+	<anim x="80" loop="false" y="-206" fps="24" anim="BFDeathConfirm" name="deathConfirm"/>
+</character>

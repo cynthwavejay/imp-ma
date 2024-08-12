@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplayceholders.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AlibiButton0000" x="0" y="0" width="249" height="479"/>
+	<SubTexture name="AlibiSelect0000" x="249" y="0" width="249" height="479"/>
+	<SubTexture name="BlackButton0000" x="498" y="0" width="249" height="479"/>
+	<SubTexture name="BlackSelect0000" x="747" y="0" width="249" height="479"/>
+	<SubTexture name="GreenButton0000" x="0" y="479" width="249" height="479"/>
+	<SubTexture name="GreenSelect0000" x="249" y="479" width="249" height="479"/>
+	<SubTexture name="RedButton0000" x="498" y="479" width="249" height="479"/>
+	<SubTexture name="RedSelect0000" x="747" y="479" width="249" height="479"/>
+</TextureAtlas>

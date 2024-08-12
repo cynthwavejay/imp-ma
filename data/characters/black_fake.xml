@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-200" icon="black" y="0" camy="75" camx="0" isGF="false" scale="0.8" color="#321B22" isPlayer="false" gameOverChar="bf" holdTime="5" sprite="black_fake">
+	<anim x="0" loop="false" y="0" fps="24" anim="FBlackIdle" name="idle"/>
+	<anim x="405" loop="false" y="15" fps="24" anim="FBlackLeft" name="singLEFT"/>
+	<anim x="-73" loop="false" y="-93" fps="24" anim="FBlackDown" name="singDOWN"/>
+	<anim x="-48" loop="false" y="51" fps="24" anim="FBlackUp" name="singUP"/>
+	<anim x="-252" loop="false" y="32" fps="24" anim="FBlackRight" name="singRIGHT"/>
+</character>

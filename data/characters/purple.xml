@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" icon="purple" y="50" isGF="true" color="#A5004D" isPlayer="false" sprite="purple_crewmate" scale="0.8">
+	<anim x="0" loop="false" y="0" fps="24" anim="GF Idle Dance" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" name="danceLeft"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="GF Idle Dance" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29" name="danceRight"/>
+	<anim x="44" loop="true" y="-48" fps="24" anim="GF Cry" name="sad"/>
+</character>

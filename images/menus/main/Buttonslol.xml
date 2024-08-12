@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Buttonslol.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CreditsButton0000" x="0" y="0" width="578" height="213"/>
+	<SubTexture name="CreditsSelect0000" x="588" y="0" width="588" height="213"/>
+	<SubTexture name="OptionsButton0000" x="1186" y="0" width="578" height="213"/>
+	<SubTexture name="OptionsSelect0000" x="0" y="223" width="588" height="213"/>
+	<SubTexture name="PlayButton0000" x="598" y="223" width="578" height="213"/>
+	<SubTexture name="PlaySelect0000" x="1186" y="223" width="588" height="213"/>
+</TextureAtlas>

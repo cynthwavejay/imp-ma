@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="union.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="unionDance0000" x="0" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0001" x="0" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0002" x="365" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0003" x="365" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0004" x="730" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0005" x="730" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0006" x="1095" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0007" x="1095" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0008" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0009" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0010" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0011" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0012" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0013" x="1460" y="0" width="355" height="476"/>
+	<SubTexture name="unionDance0014" x="1460" y="0" width="355" height="476"/>
+</TextureAtlas>

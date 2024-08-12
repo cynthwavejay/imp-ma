@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="black" y="0" isGF="false" color="#321B22" isPlayer="false" gameOverChar="bf" holdTime="6" sprite="black_impostor">
+	<anim x="0" loop="true" y="0" fps="20" anim="BlackIdle" name="idle"/>
+	<anim x="330" loop="false" y="-40" fps="24" anim="BlackLeft" name="singLEFT"/>
+	<anim x="152" loop="false" y="-323" fps="24" anim="BlackDown" name="singDOWN"/>
+	<anim x="145" loop="false" y="131" fps="24" anim="BlackUp" name="singUP"/>
+	<anim x="-137" loop="false" y="-13" fps="24" anim="BlackRight" name="singRIGHT"/>
+</character>
