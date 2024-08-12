@@ -9,7 +9,7 @@ function new() {
     if (FlxG.save.data.trackCredits == null) FlxG.save.data.trackCredits = true;
 
 //window title goes under here
-    window.title = "Impostor! Mania - V2 ( Activator update )";
+    window.title = "Impostor! Mania - V2 ( - Activator update - )";
 }
 
 static var redirectStates:Map<FlxState, String> = [
