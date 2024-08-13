@@ -9,9 +9,13 @@
 	],
 	"needsVoices": true,
 	"parsedColor": -8031747,
-	"displayName": "Overtaken - Mali",
+	"displayName": "Overtaken",
 	"icon": "black",
 	"name": "overtaken",
 	"color": "#8571FD",
-	"customValues": {}
+	"customValues": {
+		"composer": "Snuts",
+		"charter": "Ryze",
+		"trackNum": "???"
+	}
 }

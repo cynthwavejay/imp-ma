@@ -31,6 +31,7 @@ function create(){
 	CoolUtil.playMenuSong();
 	Script.staticVariables.set('skipTitleIntro', true);
 	FlxG.mouse.visible = false;
+	window.title = "Impostor! Mania - V2 ( Activator update )";
 
 	// loads sounds in for no lag when selecting something
 	confirm = FlxG.sound.load(Paths.sound('menus/confirm'));
