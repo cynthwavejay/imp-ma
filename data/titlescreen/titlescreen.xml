@@ -2,56 +2,43 @@
 <titlestate>
 	<sprites folder="menus/titlescreen">
 		<sprite name="background" sprite="background" x="0" y="0"/>
-		<sprite name="logo" sprite="logo" x="225" y="0" beatInterval="1"/>
+		<sprite name="logo" sprite="logo" x="225" y="0" beatInterval="1" scale="0.8" />
 
 		<titleEnter sprite="titleEnter" x="-150" y="-100" />
+		<sprite name="border" sprite="border" x="0" y="0"/>
 	</sprites>
 
-	<intro length="16">
+	<intro length="40">
 		<text beat="1">
-			<line text="Team ImpMania" />
+			<sprite path="menus/titlescreen/promotitle" scale="0.5"/>
 		</text>
 
-		<text beat="3">
+		<text beat="4">
 			<line text="Team ImpMania" />
 			<line text="Presents" />
 		</text>
 
-		<text beat="4" /> <!-- clears the screen !-->
-
-		<text beat="5">
-			<line text="A mod thats inspired by" />
-		</text>
-
-		<text beat="7">
+		<text beat="12">
 			<line text="A mod thats inspired by" />
 			<line text="These two mods" />
 			<sprite path="menus/titlescreen/card" scale="0.5"/>
 		</text>
 
-		<text beat="8" /> <!-- clears the screen !-->
-
-		<text beat="9">
+		<text beat="20">
 			<introtext line="1" />
 		</text>
 
-		<text beat="11">
+		<text beat="24">
 			<introtext line="1" />
 			<introtext line="2" />
 		</text>
 
-		<text beat="12"/>
-
-		<text beat="13">
-			<line text="Impostor" />
-		</text>
-
-		<text beat="14">
+		<text beat="36">
 			<line text="Impostor" />
 			<line text="Mania" />
 		</text>
 
-		<text beat="15">
+		<text beat="38">
 			<line text="Impostor" />
 			<line text="Mania" />
 			<line text="Activation" />
