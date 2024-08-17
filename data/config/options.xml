@@ -1,5 +1,6 @@
 <!DOCTYPE codename-mod-options>
-<menu name="Mania Options" desc="Change Impostor! Mania options here.">
+<menu name="Mania Options" desc="Change Impostor! Mania's options here.">
 	<checkbox id="windowTrack" name="Window Track" desc="If checked, displays the song name, its number, and composer in the window title." />
 	<checkbox id="trackCredits" name="Track Credits" desc="If checked, displays the song name, the composer, and the charter in a neat box." />
+	<checkbox id="menuCrew" name="Menu Crewmates" desc="If checked, Crewmates will appear in the Main Menu and die at a certain point of the menu theme." />
 </menu>

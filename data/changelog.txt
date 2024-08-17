@@ -1,0 +1,36 @@
+August 28, 2024 (Activator update)
+- 1 new song
+- Revamped Freeplay
+- Revamped Main Menu
+- Revamped Title screen
+- Revamped opening + 18 new intro texts
+- Added custom mouse asset
+- Added note splashes
+- New Sussy Mania events
+- New icons
+- New sprites for; Red, and BF
+- New settings
+- Window title changes in a song "Track [Num] - [Name] - [Composer]", can be toggled off
+- Song card that shows the song name, the composer, and the charter, can be toggled off
+"Track #[Num] - [Name]
+Composer: [Composer]
+Charter: [Charter]"
+- Added crewmates that die when a specific part of the menu theme plays, can be toggled off
+- Added "Chloe" to credits
+- Updated Discord RPC
+> Chart, Character, and Stage editor states: "Editing a sus"
+> Chart, Character, and Stage selection states: "Choosing a sus"
+> Game over: "Got killed :("
+> Menus: "In the sussy menus"
+> RPC button that goes to the twitter account: "Impostor! Mania Twitter" (Added a space between Impostor! and Mania)
+- New "Sabotage" event, doesn't fucking attack your eyes and is instead a pleasant gradient :3
+- Updated Sussy Mania (AKA Added Sussy Mania V2)
+- Removed Susbrine
+
+----------------------------------
+May 23, 2024 (Sussy Mania release)
+- 1 song
+- Custom Freeplay
+- Custom Main menu
+- Custom title screen
+- Custom noteskin

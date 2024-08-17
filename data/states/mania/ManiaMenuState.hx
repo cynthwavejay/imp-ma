@@ -100,15 +100,17 @@ function create(){
 
 	add(menuItems);
 
-	yellow = new FlxSprite(0, 100);
-	yellow.frames = Paths.getSparrowAtlas('menus/main/yellow');
-	yellow.animation.addByPrefix('yellownormal', 'yellownormal', 24, true);
-	yellow.animation.addByPrefix('yellowdies', 'yellowdies', 24, false);
-	yellow.scale.set(0.6, 0.6);
-	yellow.x = 380;
-	yellow.y = 620;
-	yellow.alpha = 0;
-	add(yellow);
+	if (FlxG.save.data.menuCrew){
+		yellow = new FlxSprite(0, 100);
+		yellow.frames = Paths.getSparrowAtlas('menus/main/yellow');
+		yellow.animation.addByPrefix('yellownormal', 'yellownormal', 24, true);
+		yellow.animation.addByPrefix('yellowdies', 'yellowdies', 24, false);
+		yellow.scale.set(0.6, 0.6);
+		yellow.x = 380;
+		yellow.y = 620;
+		yellow.alpha = 0;
+		add(yellow);
+	}
 
 	mouseMania = new FlxSprite(0, 0);
 	mouseMania.frames = Paths.getSparrowAtlas('ui/mouse');
@@ -219,17 +221,19 @@ function switchState() {
 
 function beatHit(curBeat){
 
-	if(curBeat == 66){
-		FlxTween.tween(yellow, {y: 320}, 1, {ease: FlxEase.expoOut});
-		FlxTween.tween(yellow, {alpha: 1}, 1, {ease: FlxEase.expoOut});
-		yellow.animation.play("yellownormal");
-	}
-
-	if(curBeat == 70){
-		yellow.animation.play("yellowdies");
-		new FlxTimer().start(2, function(tmr:FlxTimer){
-			FlxTween.tween(yellow, {y: 620}, 3, {ease: FlxEase.expoOut});
-			FlxTween.tween(yellow, {alpha: 0}, 3, {ease: FlxEase.expoOut});
-		});
+	if (FlxG.save.data.menuCrew){
+		if(curBeat == 66){
+			FlxTween.tween(yellow, {y: 320}, 1, {ease: FlxEase.expoOut});
+			FlxTween.tween(yellow, {alpha: 1}, 1, {ease: FlxEase.expoOut});
+			yellow.animation.play("yellownormal");
+		}
+	
+		if(curBeat == 70){
+			yellow.animation.play("yellowdies");
+			new FlxTimer().start(2, function(tmr:FlxTimer){
+				FlxTween.tween(yellow, {y: 620}, 1.25, {ease: FlxEase.expoIn});
+				FlxTween.tween(yellow, {alpha: 0}, 1.25, {ease: FlxEase.expoIn});
+			});
+		}
 	}
 }

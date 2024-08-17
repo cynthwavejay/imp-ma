@@ -1,10 +1,10 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" icon="azure" y="330" isGF="false" scale="0.9" camy="50" color="#3E5587" flipX="true" isPlayer="true" gameOverChar="deathreal" holdTime="6" sprite="azure_blue_crewmate">
+<character x="-50" icon="azure" y="330" isGF="false" scale="0.9" camy="0" color="#3E5587" flipX="true" isPlayer="true" gameOverChar="deathreal" holdTime="6" sprite="azure_blue_crewmate">
 	<anim x="-5" loop="false" y="0" fps="24" anim="BFIdle" name="idle"/>
 	<anim x="-39" loop="false" y="34" fps="24" anim="BFUp" name="singUP"/>
 	<anim x="41" loop="false" y="-4" fps="24" anim="BFLeft" name="singLEFT"/>
 	<anim x="-93" loop="false" y="-28" fps="24" anim="BFRight" name="singRIGHT"/>
-	<anim x="-35" loop="false" y="-117" fps="24" anim="BFDown" name="singDOWN"/>
+	<anim x="-35" loop="false" y="-120" fps="24" anim="BFDown" name="singDOWN"/>
 	<anim x="-46" loop="false" y="14" fps="24" anim="MissUp" name="singUPmiss"/>
 	<anim x="45" loop="false" y="-14" fps="24" anim="MissLeft" name="singLEFTmiss"/>
 	<anim x="-116" loop="false" y="-24" fps="24" anim="MissRight" name="singRIGHTmiss"/>
