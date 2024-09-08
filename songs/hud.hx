@@ -58,7 +58,14 @@ function create(){
     timeBarBG.y = timeTxt.y + (timeTxt.height / 4);
 
     timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, FlxBar.FILL_LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), Conductor, 'songPosition', 0, 1);
-    timeBar.createFilledBar(0xFF2e412e,0xFF44d844);
+    switch(SONG.meta.name){
+        case "overtaken":
+            timeBar.createFilledBar(0xffff0000,0xff29131e);
+            timeTxt.color = 0xffff0000;
+            timeBarBG.loadGraphic(Paths.image('game/reverseTimeBar'));
+        default:
+            timeBar.createFilledBar(0xFF2e412e,0xFF44d844);
+    }
     timeBar.numDivisions = 1000;
     timeBar.value = Conductor.songPosition / Conductor.songDuration;
 	
@@ -77,8 +84,14 @@ function create(){
 }
 
 function postCreate(){
-    for (i in [missesTxt, accuracyTxt, scoreTxt]){
-        i.color = dadColor;
+    if(!SONG.meta.name == "overtaken"){
+        for (i in [missesTxt, accuracyTxt, scoreTxt]){
+            i.color = dadColor;
+        }
+    }else{
+        songText.color = FlxColor.RED;
+        composerText.color = FlxColor.RED;
+        charterText.color = FlxColor.RED;
     }
 }
 

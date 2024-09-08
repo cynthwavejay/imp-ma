@@ -132,16 +132,6 @@ function update(elapsed){
 	
 	if (FlxG.sound.music.volume < 0.8) FlxG.sound.music.volume += 0.5 * elapsed;
 
-    if (FlxG.keys.justPressed.SEVEN){
-		persistentUpdate = !(persistentDraw = true);
-		openSubState(new EditorPicker());
-	}
-
-	if (controls.SWITCHMOD) {
-		openSubState(new ModSwitchMenu());
-		persistentUpdate = !(persistentDraw = true);
-	}
-
 	if (controls.BACK || FlxG.mouse.justPressedRight){
 		cancel.play();
 	

@@ -1,3 +1,8 @@
+var missAmt = 0;
+var blackScreen:FlxSprite;
+var ogX;
+var ogY;
+
 function create() {
     overlaya.color = "BLACK";
     addlaya.blend = 0;
@@ -36,13 +41,21 @@ function postCreate() {
     healthBarBG.visible = false;
     iconP1.visible = false;
     iconP2.visible = false;
+
+
 }
 
 function postUpdate(elapsed) {
     missesTxt.text = misses + " / 10";
     if (misses > 10){
         gameOver();
-    }
+    }  
+    missAmt = misses/5;
+    var rando1 = FlxG.random.float(-missAmt,missAmt);
+    var rando2 = FlxG.random.float(-missAmt,missAmt);
+
+    missesTxt.x = (389.5 + rando1);
+    missesTxt.y = (630 + rando2);
 }
 
 
@@ -76,7 +89,16 @@ function stepHit(curStep){
         bodies2.visible = false;
         aura.visible = false;
 	}
+    if (curStep == 1580){
+        blackScreen = new FlxSprite(-500, -250);
+        blackScreen.makeGraphic(FlxG.width*2, FlxG.height*2, FlxColor.BLACK);
+        blackScreen.alpha = 0;
+        add(blackScreen);
+        FlxTween.tween(FlxG.camera, {zoom:1.5}, 1.5, {ease: FlxEase.quartIn});
+        FlxTween.tween(blackScreen, {alpha:1}, 1.5, {ease: FlxEase.quartIn});
+    }
     if (curStep == 1600){
+        FlxTween.tween(blackScreen, {alpha:0}, 0.5, {ease: FlxEase.quartOut});
         spaceflash.visible = true;
         stars.visible = true;
         base.visible = true;
@@ -112,10 +134,10 @@ function stepHit(curStep){
         bodies2.visible = true;
         aura.visible = true;        
 
-        dad.x = -200;
+        dad.x = -400;
         dad.y = -125;
 
-        boyfriend.x = 1175;
+        boyfriend.x = 1375;
         boyfriend.y = -100;
 
         defaultCamZoom = 0.55;

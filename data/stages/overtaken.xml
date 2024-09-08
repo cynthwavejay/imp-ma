@@ -2,10 +2,10 @@
 <stage zoom="0.55" name="overtaken" folder="stages/overtaken/" startCamPosY="600" startCamPosX="1000">
 <!-- Normal 1-->
 	<sprite name="space"               x="-1000" y="-1300"   sprite="space"       scroll="0"/>
-	<sprite name="polusandfungle"       x="-50" y="-800"    sprite="polusFungle"      scroll="0.2" />
-	<sprite name="mapset"               x="-700" y="-1000"   sprite="mapSetBones"       scroll="0.6"/>
-	<sprite name="speaker1"               x="-600" y="-500"   sprite="speakers"       scroll="0.9"/>
-	<sprite name="speaker2"               x="1800" y="-500"   sprite="speakers"       scroll="0.9"/>
+	<sprite name="polusandfungle"       x="-50" y="-800"    sprite="polusFungle"      scroll="0.1" />
+	<sprite name="mapset"               x="-700" y="-1000"   sprite="mapSetBones"       scroll="0.2"/>
+	<sprite name="speaker1"               x="-600" y="-500"   sprite="speakers"       scroll="0.5"/>
+	<sprite name="speaker2"               x="1800" y="-500"   sprite="speakers"       scroll="0.5"/>
 	<sprite name="ground"       x="-1000" y="-700"    sprite="ground"      scroll="1" />
 <!-- Flashback 1 -->
 	<sprite name="spaceflash"               x="-700" y="-500"   sprite="flashback/space"       scroll="0.8"/>
@@ -13,11 +13,11 @@
 	<sprite name="base"       x="-700" y="-500"    sprite="flashback/base"      scroll="1" />
 <!-- Char positions -->
 	<girlfriend 		x="500" y="-50" alpha="0"/>
-	<dad 		x="-200" y="-125" 	camxoffset="100" camyoffset="225"/>
-	<boyfriend			x="1175" y="-100"	camxoffset="-300" camyoffset="-25"/>
+	<dad 		x="-400" y="-125" 	camxoffset="100" camyoffset="225"/>
+	<boyfriend			x="1375" y="-100"	camxoffset="-300" camyoffset="-25"/>
 <!-- Normal 2 -->
 	<sprite name="bodies1"               x="-1000" y="525"   sprite="bodies1"       scroll="1.5"/>
-	<sprite name="bodies2"               x="1500" y="125"   sprite="bodies2"       scroll="1.5"/>
+	<sprite name="bodies2"               x="1800" y="125"   sprite="bodies2"       scroll="1.5"/>
 	<sprite name="aura"               x="-1000" y="-1000"   sprite="aura2"       scroll="1"/>
 <!-- Flashback 2 -->
 	<sprite name="table"       x="-700" y="-500"    sprite="flashback/tables"      scroll="1" />
