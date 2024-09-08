@@ -6,14 +6,14 @@ function create() {
     aura.blend = 0;
 
     space.visible = false;
-    mountain.visible = false;
-    spikes1.visible = false;
-    spikes2.visible = false;
-    gfspike.visible = false;
-    cameo1.visible = false;
-    cameo2.visible = false;
+    polusandfungle.visible = false;
+    mapset.visible = false;
+    speaker1.visible = false;
+    speaker2.visible = false;
     ground.visible = false;
-    bodies.visible = false;
+    bodies1.visible = false;
+    bodies2.visible = false;
+    speaker2.flipX = true;
 
     spaceflash.visible = false;
     stars.visible = false;
@@ -57,25 +57,23 @@ function stepHit(curStep){
     }
     if (curStep == 416){
         space.visible = true;
-        mountain.visible = true;
-        spikes1.visible = true;
-        spikes2.visible = true;
-        gfspike.visible = true;
-        cameo1.visible = true;
-        cameo2.visible = true;
+        polusandfungle.visible = true;
+        mapset.visible = true;
+        speaker1.visible = true;
+        speaker2.visible = true;
         ground.visible = true;
-        bodies.visible = true;
+        bodies1.visible = true;
+        bodies2.visible = true;
     }
 	if (curStep == 1568){
         space.visible = false;
-        mountain.visible = false;
-        spikes1.visible = false;
-        spikes2.visible = false;
-        gfspike.visible = false;
-        cameo1.visible = false;
-        cameo2.visible = false;
+        polusandfungle.visible = false;
+        mapset.visible = false;
+        speaker1.visible = false;
+        speaker2.visible = false;
         ground.visible = false;
-        bodies.visible = false;
+        bodies1.visible = false;
+        bodies2.visible = false;
         aura.visible = false;
 	}
     if (curStep == 1600){
@@ -105,14 +103,13 @@ function stepHit(curStep){
         addlaya.visible = false; 
 
         space.visible = true;
-        mountain.visible = true;
-        spikes1.visible = true;
-        spikes2.visible = true;
-        gfspike.visible = true;
-        cameo1.visible = true;
-        cameo2.visible = true;
+        polusandfungle.visible = true;
+        mapset.visible = true;
+        speaker1.visible = true;
+        speaker2.visible = true;
         ground.visible = true;
-        bodies.visible = true;
+        bodies1.visible = true;
+        bodies2.visible = true;
         aura.visible = true;        
 
         dad.x = -200;

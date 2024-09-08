@@ -8,13 +8,13 @@
 		"HARD"
 	],
 	"needsVoices": true,
-	"parsedColor": -8031747,
+	"parsedColor": -8162819,
 	"displayName": "Overtaken",
 	"icon": "black",
 	"name": "overtaken",
-	"color": "#8571FD",
+	"color": "#8371FD",
 	"customValues": {
-		"composer": "Snuts",
+		"composer": "Mali",
 		"charter": "Ryze",
 		"trackNum": "???"
 	}

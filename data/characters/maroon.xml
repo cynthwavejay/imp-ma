@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-700" icon="maroon" camx="300" y="225" isGF="false" scale="0.75" camy="25" color="#B21F39" isPlayer="false" gameOverChar="bf" holdTime="6" sprite="maroon_impostor">
+	<anim x="0" loop="false" y="0" fps="24" anim="MaroonIdle" name="idle"/>
+	<anim x="103" loop="false" y="-20" fps="24" anim="MaroonLeft" name="singLEFT"/>
+	<anim x="-128" loop="false" y="-72" fps="24" anim="MaroonDown" name="singDOWN"/>
+	<anim x="-384" loop="false" y="472" fps="24" anim="MaroonUp" name="singUP"/>
+	<anim x="-608" loop="false" y="-1" fps="24" anim="MaroonRight" name="singRIGHT"/>
+</character>

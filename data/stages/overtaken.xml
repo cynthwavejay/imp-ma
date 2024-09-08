@@ -1,36 +1,27 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.55" name="overtaken" folder="stages/overtaken/" startCamPosY="600" startCamPosX="1000">
-	<sprite name="space"               x="-700" y="-1000"   sprite="space"       scroll="0"/>
-	<sprite name="mountain"       x="-700" y="-500"    sprite="mountain"      scroll="0.1" 		scalex="1.1" />
-
+<!-- Normal 1-->
+	<sprite name="space"               x="-1000" y="-1300"   sprite="space"       scroll="0"/>
+	<sprite name="polusandfungle"       x="-50" y="-800"    sprite="polusFungle"      scroll="0.2" />
+	<sprite name="mapset"               x="-700" y="-1000"   sprite="mapSetBones"       scroll="0.6"/>
+	<sprite name="speaker1"               x="-600" y="-500"   sprite="speakers"       scroll="0.9"/>
+	<sprite name="speaker2"               x="1800" y="-500"   sprite="speakers"       scroll="0.9"/>
+	<sprite name="ground"       x="-1000" y="-700"    sprite="ground"      scroll="1" />
+<!-- Flashback 1 -->
 	<sprite name="spaceflash"               x="-700" y="-500"   sprite="flashback/space"       scroll="0.8"/>
 	<sprite name="stars"       x="-700" y="-500"    sprite="flashback/stars"      scroll="0.1"/>
-
-	<high-memory>
-		<sprite name="spikes1"               x="-700" y="0"   sprite="spikes1"       scroll="0.35" />
-		<sprite name="spikes2"               x="-700" y="0"   sprite="spikes2"       scroll="0.4" />
-	</high-memory>
-
-	<sprite name="cameo1"       x="-700" y="-600"    sprite="cameosSpiked1"      scroll="0.5" />
-	<sprite name="cameo2"       x="1300" y="-425"    sprite="cameosSpiked2"      scroll="0.7" />
-	<sprite name="gfspike"       x="350" y="-600"    sprite="gfSpiked"      scroll="0.9" />
-
-	<sprite name="ground"       x="-700" y="0"    sprite="ground"      scroll="1" />
-
 	<sprite name="base"       x="-700" y="-500"    sprite="flashback/base"      scroll="1" />
-
+<!-- Char positions -->
 	<girlfriend 		x="500" y="-50" alpha="0"/>
-	<dad 		x="-200" y="-125" 	camxoffset="150" camyoffset="250"/>
-	<boyfriend			x="1175" y="-100"	camxoffset="-400"/>
-
+	<dad 		x="-200" y="-125" 	camxoffset="100" camyoffset="225"/>
+	<boyfriend			x="1175" y="-100"	camxoffset="-300" camyoffset="-25"/>
+<!-- Normal 2 -->
+	<sprite name="bodies1"               x="-1000" y="525"   sprite="bodies1"       scroll="1.5"/>
+	<sprite name="bodies2"               x="1500" y="125"   sprite="bodies2"       scroll="1.5"/>
+	<sprite name="aura"               x="-1000" y="-1000"   sprite="aura2"       scroll="1"/>
+<!-- Flashback 2 -->
 	<sprite name="table"       x="-700" y="-500"    sprite="flashback/tables"      scroll="1" />
+	<sprite name="overlaya"               x="-700" y="-500"   sprite="flashback/overlay"       scroll="1" 		alpha="0.75"/>
+	<sprite name="addlaya"               x="-700" y="-500"   sprite="flashback/addlay"       scroll="1" />
 
-	<high-memory>
-		<sprite name="bodies"               x="-700" y="550"   sprite="bodies"       scroll="1.1" />
-		<sprite name="aura"               x="-700" y="-500"   sprite="aura"       scroll="1" 		alpha="0.5"/>
-
-
-		<sprite name="overlaya"               x="-700" y="-500"   sprite="flashback/overlay"       scroll="1" 		alpha="0.75"/>
-		<sprite name="addlaya"               x="-700" y="-500"   sprite="flashback/addlay"       scroll="1" />
-	</high-memory>
 </stage>
