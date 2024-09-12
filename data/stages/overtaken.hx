@@ -2,6 +2,10 @@ var missAmt = 0;
 var blackScreen:FlxSprite;
 var ogX;
 var ogY;
+var daStrumID:Int = 1;
+
+
+
 
 function create() {
     overlaya.color = "BLACK";
@@ -43,6 +47,18 @@ function postCreate() {
     iconP2.visible = false;
 
 
+}
+
+function onNoteCreation(e) {
+    if (e.strumLineID == daStrumID){
+        e.noteSprite = "game/notes/overtaken";
+    }
+}
+
+function onStrumCreation(e) {
+    if (e.player == daStrumID){
+        e.sprite = "game/notes/overtaken";
+    }
 }
 
 function postUpdate(elapsed) {
