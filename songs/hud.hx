@@ -84,14 +84,20 @@ function create(){
 }
 
 function postCreate(){
-    if(!SONG.meta.name == "overtaken"){
-        for (i in [missesTxt, accuracyTxt, scoreTxt]){
-            i.color = dadColor;
-        }
-    }else{
+    if(SONG.meta.name == "overtaken"){
         songText.color = FlxColor.RED;
         composerText.color = FlxColor.RED;
         charterText.color = FlxColor.RED;
+        for (i in [missesTxt, accuracyTxt, scoreTxt]){
+            i.color = FlxColor.RED;
+        }
+    }else{
+        songText.color = dadColor;
+        composerText.color = dadColor;
+        charterText.color = dadColor;
+        for (i in [missesTxt, accuracyTxt, scoreTxt]){
+            i.color = dadColor;
+        }
     }
 }
 
