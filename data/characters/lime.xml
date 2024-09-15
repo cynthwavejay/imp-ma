@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-150" icon="red" y="300" isGF="false" scale="0.8" camx="-200" camy="0" color="#B21F39" flipX="true" isPlayer="true" gameOverChar="bf" holdTime="6" sprite="lime_impostor">
+	<anim x="0" loop="false" y="0" fps="24" anim="PicoIdle" name="idle"/>
+	<anim x="259" loop="false" y="31" fps="24" anim="PicoLeft" name="singLEFT"/>
+	<anim x="132" loop="false" y="-69" fps="24" anim="PicoDown" name="singDOWN"/>
+	<anim x="128" loop="false" y="53" fps="24" anim="PicoUp" name="singUP"/>
+	<anim x="-125" loop="false" y="192" fps="24" anim="PicoRight" name="singRIGHT"/>
+</character>
