@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yellow_crewmate_dies.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="YellowDead0000" x="0" y="0" width="1005" height="526"/>
+	<SubTexture name="YellowDies0000" x="1010" y="0" width="1265" height="940"/>
+	<SubTexture name="YellowDies0001" x="2280" y="0" width="1265" height="940"/>
+	<SubTexture name="YellowDies0002" x="3550" y="0" width="1265" height="940"/>
+	<SubTexture name="YellowDies0003" x="4820" y="0" width="1265" height="940"/>
+	<SubTexture name="YellowDies0004" x="6090" y="0" width="1265" height="940"/>
+	<SubTexture name="YellowDies0005" x="0" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0006" x="0" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0007" x="1270" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0008" x="2540" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0009" x="3810" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0010" x="3810" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0011" x="5080" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0012" x="6350" y="945" width="1265" height="940"/>
+	<SubTexture name="YellowDies0013" x="0" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0014" x="1270" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0015" x="2540" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0016" x="3810" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0017" x="5080" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0018" x="5080" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0019" x="6350" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0020" x="6350" y="1890" width="1265" height="940"/>
+	<SubTexture name="YellowDies0021" x="0" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0022" x="0" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0023" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0024" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0025" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0026" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0027" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0028" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowDies0029" x="1270" y="2835" width="1265" height="940"/>
+	<SubTexture name="YellowIdle0000" x="2540" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0001" x="2540" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0002" x="3610" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0003" x="3610" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0004" x="4680" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0005" x="4680" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0006" x="5750" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0007" x="5750" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0008" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0009" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0010" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0011" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0012" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0013" x="6820" y="2835" width="1065" height="774"/>
+	<SubTexture name="YellowIdle0014" x="6820" y="2835" width="1065" height="774"/>
+</TextureAtlas>

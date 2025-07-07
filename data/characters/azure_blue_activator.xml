@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" icon="azure" y="330" isGF="false" scale="0.9" camy="50" color="#3E5587" flipX="true" isPlayer="true" gameOverChar="deathreal" holdTime="6" sprite="azure_blue_crewmate_activator">
-	<anim x="-5" loop="false" y="0" fps="24" anim="BFIdle" name="idle"/>
-	<anim x="-79" loop="false" y="59" fps="24" anim="BFUp" name="singUP"/>
-	<anim x="10" loop="false" y="-5" fps="24" anim="BFLeft" name="singLEFT"/>
-	<anim x="-108" loop="false" y="-28" fps="24" anim="BFRight" name="singRIGHT"/>
-	<anim x="-40" loop="false" y="-122" fps="24" anim="BFDown" name="singDOWN"/>
-	<anim x="-46" loop="false" y="14" fps="24" anim="MissUp" name="singUPmiss"/>
-	<anim x="45" loop="false" y="-14" fps="24" anim="MissLeft" name="singLEFTmiss"/>
-	<anim x="-116" loop="false" y="-24" fps="24" anim="MissRight" name="singRIGHTmiss"/>
-	<anim x="-46" loop="false" y="-117" fps="24" anim="MissDown" name="singDOWNmiss"/>
+<character x="-150" y="240" sprite="BFManiaV3Activator" scale="0.735" flipX="true" isPlayer="true" icon="azure" color="#3E5587" gameOverChar="deathreal" holdTime="6" isGF="false">
+	<anim name="idle" anim="BFIdle" x="-5" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="BFUp" x="-69" y="79" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="BFLeft" x="-9" y="-24" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="BFRight" x="-173" y="-23" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="BFDown" x="-60" y="-101" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="MissUp" x="-141" y="39" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="MissLeft" x="-70" y="-29" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="MissRight" x="-241" y="-19" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="MissDown" x="-76" y="-127" fps="24" loop="false"/>
 </character>

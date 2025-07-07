@@ -2,19 +2,19 @@
 <TextureAtlas imagePath="engineer.png">
 	<!-- Created with Adobe Animate version 20.0.3.25487 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="engiDance0000" x="0" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0001" x="0" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0002" x="342" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0003" x="342" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0004" x="684" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0005" x="684" y="0" width="332" height="395"/>
-	<SubTexture name="engiDance0006" x="0" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0007" x="0" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0008" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0009" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0010" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0011" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0012" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0013" x="342" y="405" width="332" height="395"/>
-	<SubTexture name="engiDance0014" x="342" y="405" width="332" height="395"/>
+	<SubTexture name="engineerdance0000" x="0" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0001" x="0" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0002" x="868" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0003" x="868" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0004" x="1736" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0005" x="1736" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0006" x="2604" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0007" x="2604" y="0" width="858" height="781"/>
+	<SubTexture name="engineerdance0008" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0009" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0010" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0011" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0012" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0013" x="0" y="791" width="858" height="781"/>
+	<SubTexture name="engineerdance0014" x="0" y="791" width="858" height="781"/>
 </TextureAtlas>

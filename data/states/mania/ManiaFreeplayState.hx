@@ -184,7 +184,8 @@ function switchState() {
 			PlayState.loadSong("Activator", "Hard", false, false);
 			FlxG.switchState(new PlayState());
 		case 'Alibi':
-			FlxG.openURL('https://youtu.be/xrW31tZy848');
+			PlayState.loadSong("Alibi", "Hard", false, false);
+			FlxG.switchState(new PlayState());
 		case 'Black':
 			FlxG.openURL('https://youtu.be/xrW31tZy848');
 	}

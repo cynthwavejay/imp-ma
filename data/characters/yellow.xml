@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="160" sprite="yellow_crewmate" scale="0.7" icon="yellow" color="#C99649" gameOverChar="bf" holdTime="6" isGF="false">
+	<anim name="idle" anim="YellowIdle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="YellowLeft" x="245" y="-10" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="YellowDown" x="175" y="-40" fps="24" loop="false"/>
+	<anim name="singUP" anim="YellowUp" x="49" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="YellowRight" x="17" y="-22" fps="24" loop="false"/>
+</character>

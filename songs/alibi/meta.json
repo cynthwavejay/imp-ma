@@ -1,21 +1,21 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 170,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -7769603,
-	"displayName": "Alibi",
 	"icon": "yellow",
+	"parsedColor": -7769603,
+	"coopAllowed": false,
 	"name": "alibi",
 	"color": "#8971FD",
 	"customValues": {
 		"composer": "Snuts",
 		"charter": "Ryze",
 		"trackNum": "3"
-	}
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Alibi",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 170
 }

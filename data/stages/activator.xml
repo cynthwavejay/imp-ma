@@ -13,14 +13,11 @@
 
 	<sprite name="dash"       x="0" y="0"    sprite="dashboardnstuff"      scroll="1" />
 
-	<sprite name="engi"       x="650" y="700"    sprite="engineer"      scroll="1">
-		<anim name="engi" anim="engiDance" type="onBeat" 	beatInterval="2" />
+	<sprite name="engi"       x="350" y="550"    sprite="engineer"      scroll="1" scale="0.725">
+		<anim name="engi" anim="engineerdance" type="onBeat" 	beatInterval="2" />
 	</sprite>
-	<sprite name="yell"       x="2150" y="700"    sprite="yellow"      scroll="1">
-		<anim name="yell" anim="yellDance" type="onBeat" 	beatInterval="2" />
-	</sprite>
-	<sprite name="ryze"       x="2450" y="900"    sprite="ryze"      scroll="1">
-		<anim name="ryze" anim="ryzeDance" type="onBeat" 	beatInterval="2"  />
+	<sprite name="yell"       x="1950" y="550"    sprite="yellow"      scroll="1" scale="0.725">
+		<anim name="yell" anim="yellowdance" type="onBeat" 	beatInterval="2" />
 	</sprite>
 
 	<combo x="1675" y="775"/>
@@ -28,9 +25,12 @@
 	<dad x="650" y="575" camyoffset="50" camxoffset="120"/>
 	<boyfriend x="1800" y="600" camyoffset="50" camxoffset="-70"/>
 
-	<sprite name="remo"       x="150" y="1000"    sprite="removed"      scroll="1">
-		<anim name="remo" anim="remoDance" type="onBeat" 	beatInterval="2" />
+	<sprite name="remo"       x="-300" y="900"    sprite="removed"      scroll="1" scale="0.725">
+		<anim name="remo" anim="removeddance" type="onBeat" 	beatInterval="2" />
 	</sprite>	
+		<sprite name="ryze"       x="2250" y="850"    sprite="ryze"      scroll="1" scale="0.725">
+		<anim name="ryze" anim="ryzedance" type="onBeat" 	beatInterval="2"  />
+	</sprite>
 
-	<sprite name="overlay"    x="0" y="0"   sprite="overlaywhole"   scroll="1" />
+	<sprite name="overlay"    x="0" y="0"   sprite="lighting"   scroll="1" />
 </stage>

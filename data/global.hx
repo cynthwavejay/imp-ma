@@ -10,7 +10,7 @@ function new() {
     if (FlxG.save.data.menuCrew == null) FlxG.save.data.menuCrew = true;
 
 //window title goes under here
-    window.title = "Impostor! Mania - V2 ( Activator update )";
+    window.title = "Impostor! Mania - V3 ( Alibi update )";
 }
 //states go under here
 static var redirectStates:Map<FlxState, String> = [

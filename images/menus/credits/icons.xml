@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="icons.png">
+<SubTexture name="JaySelect0000" x="0" y="0" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="JayIdle0000" x="120" y="0" width="105" height="99" frameX="-10" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="RyzeSelect0000" x="225" y="0" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="RyzeIdle0000" x="345" y="0" width="68" height="68" frameX="-27" frameY="-24" frameWidth="100" frameHeight="100" />
+<SubTexture name="MaliSelect0000" x="0" y="120" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="MaliIdle0000" x="120" y="120" width="107" height="95" frameX="-8" frameY="-12" frameWidth="100" frameHeight="100" />
+<SubTexture name="SnutsSelect0000" x="227" y="120" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="SnutsIdle0000" x="347" y="120" width="108" height="91" frameX="-6" frameY="-13" frameWidth="100" frameHeight="100" />
+<SubTexture name="ApolloSelect0000" x="0" y="240" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="ApolloIdle0000" x="120" y="240" width="99" height="86" frameX="-10" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="RemovedSelect0000" x="219" y="240" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="RemovedIdle0000" x="339" y="240" width="81" height="90" frameX="-20" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="TootySelect0000" x="0" y="360" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="TootyIdle0000" x="120" y="360" width="93" height="103" frameX="-10" frameY="-11" frameWidth="100" frameHeight="100" />
+<SubTexture name="ChloeSelect0000" x="213" y="360" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+<SubTexture name="ChloeIdle0000" x="333" y="360" width="120" height="120" frameX="0" frameY="0" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

@@ -2,19 +2,19 @@
 <TextureAtlas imagePath="removed.png">
 	<!-- Created with Adobe Animate version 20.0.3.25487 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="remoDance0000" x="0" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0001" x="0" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0002" x="381" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0003" x="381" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0004" x="762" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0005" x="762" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0006" x="1143" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0007" x="1143" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0008" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0009" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0010" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0011" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0012" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0013" x="1524" y="0" width="371" height="457"/>
-	<SubTexture name="remoDance0014" x="1524" y="0" width="371" height="457"/>
+	<SubTexture name="removeddance0000" x="0" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0001" x="0" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0002" x="1101" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0003" x="1101" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0004" x="2202" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0005" x="2202" y="0" width="1091" height="839"/>
+	<SubTexture name="removeddance0006" x="0" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0007" x="0" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0008" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0009" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0010" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0011" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0012" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0013" x="1101" y="849" width="1091" height="839"/>
+	<SubTexture name="removeddance0014" x="1101" y="849" width="1091" height="839"/>
 </TextureAtlas>

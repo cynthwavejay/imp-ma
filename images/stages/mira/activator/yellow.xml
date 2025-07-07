@@ -2,19 +2,19 @@
 <TextureAtlas imagePath="yellow.png">
 	<!-- Created with Adobe Animate version 20.0.3.25487 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="yellDance0000" x="0" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0001" x="0" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0002" x="446" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0003" x="446" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0004" x="892" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0005" x="892" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0006" x="1338" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0007" x="1338" y="0" width="436" height="450"/>
-	<SubTexture name="yellDance0008" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0009" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0010" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0011" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0012" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0013" x="0" y="460" width="436" height="450"/>
-	<SubTexture name="yellDance0014" x="0" y="460" width="436" height="450"/>
+	<SubTexture name="yellowdance0000" x="0" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0001" x="0" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0002" x="692" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0003" x="692" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0004" x="1384" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0005" x="1384" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0006" x="2076" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0007" x="2076" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0008" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0009" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0010" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0011" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0012" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0013" x="2768" y="0" width="682" height="749"/>
+	<SubTexture name="yellowdance0014" x="2768" y="0" width="682" height="749"/>
 </TextureAtlas>
