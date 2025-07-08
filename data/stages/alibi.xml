@@ -5,7 +5,7 @@
 	<combo x="500" y="675"/>
 	<girlfriend x="1000" y="300" camxoffset="-850" camyoffset="200" alpha="0" />
 	<dad x="-100" y="200" camxoffset="10" />
-	<character name="white" x="-150" y="250" camxoffset="10" />
+	<char name="white" x="-150" y="250" camxoffset="10" />
 	<boyfriend y="200" camyoffset="100"/>
 	<sprite name="table"    x="450" y="875"   sprite="table"   scroll="1" />
 

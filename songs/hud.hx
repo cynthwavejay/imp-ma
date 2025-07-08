@@ -22,7 +22,11 @@ function create(){
         card.alpha = 0.5;
         add(card);
     
-        songText = new FlxText(-300, 235, 400, "Track #" + PlayState.SONG.meta.customValues.trackNum + " - " +PlayState.SONG.meta.displayName, 42);
+        if (SONG.meta.name == "alibi"){
+            songText = new FlxText(-300, 235, 400, "Track #" + PlayState.SONG.meta.customValues.trackNum + " - " +PlayState.SONG.meta.customValues.fakeName, 42);
+        }else{
+            songText = new FlxText(-300, 235, 400, "Track #" + PlayState.SONG.meta.customValues.trackNum + " - " +PlayState.SONG.meta.displayName, 42);
+        }
         songText.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         songText.cameras = [camHUD];
         add(songText);
@@ -103,17 +107,19 @@ function postCreate(){
 
 function onSongStart(){
     if (FlxG.save.data.trackCredits){
-        FlxTween.tween(card, {x: 0}, 1.25, {ease: FlxEase.expoOut});
-        FlxTween.tween(songText, {x: 0}, 1.5, {ease: FlxEase.expoOut});
-        FlxTween.tween(composerText, {x: 0}, 1.75, {ease: FlxEase.expoOut});
-        FlxTween.tween(charterText, {x: 0}, 2, {ease: FlxEase.expoOut});
-        new FlxTimer().start(5,function(tmr:FlxTimer)
-            {
-                FlxTween.tween(songText, {x: -300}, 1.25, {ease: FlxEase.expoIn});
-                FlxTween.tween(card, {x: -400}, 2, {ease: FlxEase.expoIn});
-                FlxTween.tween(composerText, {x: -200}, 1.5, {ease: FlxEase.expoIn});
-                FlxTween.tween(charterText, {x: -200}, 1.75, {ease: FlxEase.expoIn});
-            });
+ 
+            FlxTween.tween(card, {x: 0}, 1.25, {ease: FlxEase.expoOut});
+            FlxTween.tween(songText, {x: 0}, 1.5, {ease: FlxEase.expoOut});
+            FlxTween.tween(composerText, {x: 0}, 1.75, {ease: FlxEase.expoOut});
+            FlxTween.tween(charterText, {x: 0}, 2, {ease: FlxEase.expoOut});
+            new FlxTimer().start(5,function(tmr:FlxTimer)
+                {
+                    FlxTween.tween(songText, {x: -300}, 1.25, {ease: FlxEase.expoIn});
+                    FlxTween.tween(card, {x: -400}, 2, {ease: FlxEase.expoIn});
+                    FlxTween.tween(composerText, {x: -200}, 1.5, {ease: FlxEase.expoIn});
+                    FlxTween.tween(charterText, {x: -200}, 1.75, {ease: FlxEase.expoIn});
+                });
+        
     }
 	
 	if (timeBar != null){
