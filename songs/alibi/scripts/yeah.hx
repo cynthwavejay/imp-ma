@@ -7,6 +7,8 @@ var songText:FlxText;
 var composerText:FlxText;
 var charterText:FlxText;
 
+var timeTxt:FlxText;
+
 var dadColor = CoolUtil.getColorFromDynamic(dad.xml.get("color"));
 
 function create(){
@@ -43,6 +45,7 @@ function create(){
         //f1Text.cameras = [camHUD];
         //f1Text.angle = -90;
         //add(f1Text);
+
     }
 }
 

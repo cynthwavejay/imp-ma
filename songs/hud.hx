@@ -53,7 +53,11 @@ function create(){
     }
 	
 	//timebar
+    if (SONG.meta.name == "alibi"){
+        timeTxt = new FlxText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.customValues.fakeName.toUpperCase(), 32);
+    }else{
 	timeTxt = new FlxText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.displayName.toUpperCase(), 32);
+    }
     timeTxt.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 
     timeBarBG = new FlxSprite().loadGraphic(Paths.image('game/timeBar'));
@@ -79,6 +83,7 @@ function create(){
 	add(timeBarBG);
 	add(timeBar);
 	add(timeTxt);
+    
 
 
     for (i in [timeTxt, timeBarBG, timeBar]){
