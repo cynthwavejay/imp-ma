@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Show or hide?",
+            "type": "DropDown('Show', 'Hide')",
+            "defaultValue": "Show"
+        },
+        {
+            "name": "Which StrumLine?",
+            "type": "StrumLine",
+            "defaultValue": 0
+        }
+    ]
+}
