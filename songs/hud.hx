@@ -1,6 +1,7 @@
 //coded by chloe ( some of it )
 import flixel.text.FlxTextBorderStyle;
 import flixel.ui.FlxBar;
+import flixel.addons.text.FlxTypeText;
 
 var card:FlxSprite;
 var songText:FlxText;
@@ -9,7 +10,7 @@ var charterText:FlxText;
 
 var timeBarBG:FlxSprite;
 var timeBar:FlxBar;
-var timeTxt:FlxText;
+var timeTxt:FlxTypeText;
 
 var dadColor = CoolUtil.getColorFromDynamic(dad.xml.get("color"));
 
@@ -54,9 +55,9 @@ function create(){
 	
 	//timebar
     if (SONG.meta.name == "alibi"){
-        timeTxt = new FlxText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.customValues.fakeName.toUpperCase(), 32);
+        timeTxt = new FlxTypeText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.customValues.fakeName.toUpperCase(), 32);
     }else{
-	timeTxt = new FlxText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.displayName.toUpperCase(), 32);
+	timeTxt = new FlxTypeText(42 + (FlxG.width / 2) - 585 , 20, 400, PlayState.SONG.meta.displayName.toUpperCase(), 32);
     }
     timeTxt.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 
@@ -112,7 +113,6 @@ function postCreate(){
 
 function onSongStart(){
     if (FlxG.save.data.trackCredits){
- 
             FlxTween.tween(card, {x: 0}, 1.25, {ease: FlxEase.expoOut});
             FlxTween.tween(songText, {x: 0}, 1.5, {ease: FlxEase.expoOut});
             FlxTween.tween(composerText, {x: 0}, 1.75, {ease: FlxEase.expoOut});
@@ -132,10 +132,40 @@ function onSongStart(){
             FlxTween.tween(e, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
         }
     }
+
+    timeTxt.start(0.1);
 }
 
 function update(elapsed){
     if (inst != null && timeBar != null && timeBar.max != inst.length) {
         timeBar.setRange(0, Math.max(1, inst.length));
+    }
+}
+
+
+function stepHit(curStep){
+    // ALIBI SONG NAME CHANGE THINGY
+    if (SONG.meta.name == "alibi") {
+        if (curStep == 1280){
+            timeTxt.erase(0.1, true, [], function () {
+                timeTxt.resetText(PlayState.SONG.meta.displayName.toUpperCase());
+                timeTxt.start(0.1);
+            });
+
+            songText.text = "Track #" + PlayState.SONG.meta.customValues.trackNum + " - " +PlayState.SONG.meta.displayName;
+
+            FlxTween.tween(card, {x: 0}, 1.25, {ease: FlxEase.expoOut});
+            FlxTween.tween(songText, {x: 0}, 1.5, {ease: FlxEase.expoOut});
+            FlxTween.tween(composerText, {x: 0}, 1.75, {ease: FlxEase.expoOut});
+            FlxTween.tween(charterText, {x: 0}, 2, {ease: FlxEase.expoOut});
+            new FlxTimer().start(5,function(tmr:FlxTimer)
+                {
+                    FlxTween.tween(songText, {x: -300}, 1.25, {ease: FlxEase.expoIn});
+                    FlxTween.tween(card, {x: -400}, 2, {ease: FlxEase.expoIn});
+                    FlxTween.tween(composerText, {x: -200}, 1.5, {ease: FlxEase.expoIn});
+                    FlxTween.tween(charterText, {x: -200}, 1.75, {ease: FlxEase.expoIn});
+                });
+            
+        }
     }
 }
