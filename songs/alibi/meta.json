@@ -1,22 +1,22 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 170,
+	"icon": "yellow",
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
 	"parsedColor": -7769603,
-	"displayName": "Alibi",
-	"icon": "yellow",
-	"name": "alibi",
-	"color": "#8971FD",
 	"customValues": {
-		"fakeName": "Kiiro",
 		"composer": "Snuts",
-		"charter": "Ryze",
-		"trackNum": "3"
-	}
+		"fakeName": "Kiiro",
+		"trackNum": "3",
+		"charter": "Ryze"
+	},
+	"color": "#8971FD",
+	"name": "alibi",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Alibi",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 170
 }

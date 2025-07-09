@@ -3,5 +3,5 @@
 	<checkbox id="windowTrack" name="Window Track" desc="If checked, displays the song name, its number, and composer in the window title." />
 	<checkbox id="trackCredits" name="Track Credits" desc="If checked, displays the song name, the composer, and the charter in a neat box." />
 	<checkbox id="menuCrew" name="Menu Crewmates" desc="If checked, Crewmates will appear in the Main Menu and die at a certain point of the menu theme." />
-	<checkbox id="cameraDirection" name="Camera Shift" desc="If checked, the camera will move based on the notes the focused character hits."/>
+	<checkbox id="cameraDirection" name="Camera Shift" desc="If checked, the camera will move based on the notes the focused character hits. (WARNING: This will cause certain songs to look weird, enable if you dare!)"/>
 </menu>

@@ -8,7 +8,7 @@ function new() {
     if (FlxG.save.data.windowTrack == null) FlxG.save.data.windowTrack = true;
     if (FlxG.save.data.trackCredits == null) FlxG.save.data.trackCredits = true;
     if (FlxG.save.data.menuCrew == null) FlxG.save.data.menuCrew = true;
-    if (FlxG.save.data.cameraDirection == null) FlxG.save.data.cameraDirection = true;
+    if (FlxG.save.data.cameraDirection == null) FlxG.save.data.cameraDirection = null;
 
 //window title goes under here
     window.title = "Impostor! Mania - V3 ( Alibi update )";
