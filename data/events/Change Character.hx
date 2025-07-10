@@ -36,15 +36,16 @@ public function precacheCharacter(strumIndex:Int, charName:String = 'bf', member
 	if (!charMap[strumIndex][memberIndex].exists(charName)) {
 		// vars
 		var strumLine:StrumLine = strumLines.members[strumIndex];
-		var firstChar:Character = strumLine.characters[0];
+		var existingChar:Character = strumLine.characters[memberIndex];
 
-		var newChar:Character = new Character(firstChar.x, firstChar.y, charName, firstChar.isPlayer);
+		var newChar:Character = new Character(existingChar.x, existingChar.y, charName, existingChar.isPlayer);
 		charMap[strumIndex][memberIndex].set(newChar.curCharacter, newChar);
-		newChar.active = newChar.visible = false;
+		newChar.active = false;
 		trace('Precached index "' + memberIndex + '" character "' + newChar.curCharacter + '" on strumLine "' + strumIndex + '".');
 
-		try { // sometimes this works and other times it doesn't
-			newChar.drawComplex(FlxG.camera);
+		try { // sometimes this works because atlases lmao
+			if (newChar.animateAtlas != null) newChar.animateAtlas.drawComplex(FlxG.camera);
+			else newChar.drawComplex(FlxG.camera);
 		} catch(e:Dynamic) {
 			trace('drawComplex didn\'t work this time for some reason');
 		}
@@ -61,7 +62,8 @@ public function precacheCharacter(strumIndex:Int, charName:String = 'bf', member
 				newChar.cameraOffset.x += stage?.characterPoses['girlfriend']?.camxoffset;
 				newChar.cameraOffset.y += stage?.characterPoses['girlfriend']?.camyoffset;
 		}
-		scripts.call('onCacheCharacter', [newChar, strumIndex, memberIndex]);
+		newChar.setPosition(existingChar.x, existingChar.y);
+		scripts.call('onCharacterCached', [newChar, strumIndex, memberIndex]);
 	}
 }
 
@@ -83,16 +85,19 @@ public function changeCharacter(strumIndex:Int, charName:String = 'bf', memberIn
 		if (strumIndex == 0) { // opponent side
 			iconP2.setIcon(newChar.getIcon());
 			if (Options.colorHealthBar) healthBar.createColoredEmptyBar(newChar.iconColor ?? (PlayState.opponentMode ? 0xFF66FF33 : 0xFFFF0000));
+			healthBar.updateBar();
 		} else if (strumIndex == 1) { // player side
 			iconP1.setIcon(newChar.getIcon());
 			if (Options.colorHealthBar) healthBar.createColoredFilledBar(newChar.iconColor ?? (PlayState.opponentMode ? 0xFFFF0000 : 0xFF66FF33));
+			healthBar.updateBar();
 		}
 	}
 
 	// swaps old and new char
 	var group = FlxTypedGroup.resolveGroup(oldChar) ?? this;
 	group.insert(group.members.indexOf(oldChar), newChar);
-	newChar.active = newChar.visible = true;
+	newChar.active = true;
+	oldChar.active = false;
 	group.remove(oldChar);
 
 	// fully apply change

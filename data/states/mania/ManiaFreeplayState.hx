@@ -31,7 +31,7 @@ function create(){
 	CoolUtil.playMenuSong();
 	Script.staticVariables.set('skipTitleIntro', true);
 	FlxG.mouse.visible = false;
-	window.title = "Impostor! Mania - V2 ( Activator update )";
+	window.title = "Impostor! Mania - V3 ( Kiiro update )";
 
 	// loads sounds in for no lag when selecting something
 	confirm = FlxG.sound.load(Paths.sound('menus/confirm'));
@@ -80,9 +80,9 @@ function create(){
 			case "Green":
 				menuItem.setPosition(405, 250);
 			case "Alibi":
-				menuItem.setPosition(705, 250);
+				menuItem.setPosition(705, 190);
 			case "Black":
-				menuItem.setPosition(1005, 250);
+				menuItem.setPosition(1005, 225);
 		}
 	}
 

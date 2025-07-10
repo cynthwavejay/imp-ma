@@ -9,4 +9,5 @@
 	<anim name="singLEFTmiss" anim="MissLeft" x="-70" y="-29" fps="24" loop="false"/>
 	<anim name="singRIGHTmiss" anim="MissRight" x="-241" y="-19" fps="24" loop="false"/>
 	<anim name="singDOWNmiss" anim="MissDown" x="-76" y="-127" fps="24" loop="false"/>
+	<anim name="alibilol" anim="MissRight" x="-241" y="-19" fps="24" loop="true" indices="2"/>
 </character>

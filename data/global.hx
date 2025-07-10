@@ -11,7 +11,7 @@ function new() {
     if (FlxG.save.data.cameraDirection == null) FlxG.save.data.cameraDirection = null;
 
 //window title goes under here
-    window.title = "Impostor! Mania - V3 ( Alibi update )";
+    window.title = "Impostor! Mania - V3 ( Kiiro update )";
 }
 //states go under here
 static var redirectStates:Map<FlxState, String> = [

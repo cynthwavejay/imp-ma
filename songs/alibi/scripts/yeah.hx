@@ -1,5 +1,7 @@
 //a windw shit for the fakery
-
+function postCreate(){
+    window.title = "Track " + PlayState.SONG.meta.customValues.trackNum + " - " + PlayState.SONG.meta.customValues.fakeName + " - " + PlayState.SONG.meta.customValues.composer;
+}
 
 function stepHit(curStep){
     if (curStep = 1280){

@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-character>
-<character x="-100" y="200" sprite="yellow_crewmate_dies" scale="0.7" icon="yellow" gameOverChar="bf" holdTime="6" isGF="false" camx="0" camy="50">
+<character x="-100" y="200" sprite="yellow_crewmate_dies" scale="0.7" camy="50" icon="white" color="#C9D5E4" gameOverChar="bf" holdTime="6" isGF="false">
 	<anim name="idle" anim="YellowIdle" x="0" y="0" fps="24" loop="false"/>
-	<anim name="shedies" anim="YellowDies" x="164" y="115" fps="24" loop="false" indices="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29" />
+	<anim name="shedies" anim="YellowDies" x="164" y="115" fps="24" loop="false" indices="1..29"/>
 	<anim name="idle-ALT" anim="YellowDead" x="156" y="-297" fps="24" loop="false"/>
 </character>

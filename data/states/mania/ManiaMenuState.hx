@@ -31,7 +31,7 @@ function create(){
 	CoolUtil.playMenuSong();
 	Script.staticVariables.set('skipTitleIntro', true);
 	FlxG.mouse.visible = false;
-    window.title = "Impostor! Mania - V2 ( Activator update )";
+    window.title = "Impostor! Mania - V3 ( Kiiro update )";
 
 	// loads sounds in for no lag when selecting something
 	confirm = FlxG.sound.load(Paths.sound('menus/confirm'));
@@ -215,7 +215,7 @@ function switchState() {
 		case 'Options':
 			FlxG.switchState(new OptionsMenu());
 		case 'Credits':
-			FlxG.switchState(new ModState('mania/ManiaCreditsState'));
+			FlxG.switchState(new CreditsMain());
 	}
 }
 
