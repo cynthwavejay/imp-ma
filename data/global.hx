@@ -9,9 +9,15 @@ function new() {
     if (FlxG.save.data.trackCredits == null) FlxG.save.data.trackCredits = true;
     if (FlxG.save.data.menuCrew == null) FlxG.save.data.menuCrew = true;
     if (FlxG.save.data.cameraDirection == null) FlxG.save.data.cameraDirection = null;
+    FlxG.save.data.beatAlibi ??= false;
 
 //window title goes under here
-    window.title = "Impostor! Mania - V3 ( Kiiro update )";
+    if (FlxG.save.data.beatAlibi == null || FlxG.save.data.beatAlibi == false) {
+        window.title = "Impostor! Mania - V3 ( Kiiro update )";
+    } else {
+        window.title = "Impostor! Mania - V3 ( Alibi update )";
+    }
+    
 }
 //states go under here
 static var redirectStates:Map<FlxState, String> = [

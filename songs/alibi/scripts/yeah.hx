@@ -10,3 +10,8 @@ function stepHit(curStep){
         }
     }
 }
+
+function onSongEnd() {
+    FlxG.save.data.beatAlibi = true;
+    FlxG.save.flush();
+}
