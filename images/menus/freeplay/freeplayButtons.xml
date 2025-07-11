@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="freeplayButtons.png">
-<SubTexture name="BlackButton0000" x="0" y="0" width="174" height="304" frameX="0" frameY="-1" frameWidth="164" frameHeight="295" />
-<SubTexture name="BlackHover0000" x="174" y="0" width="172" height="302" frameX="-1" frameY="-1" frameWidth="163" frameHeight="293" />
-<SubTexture name="ExitButton0000" x="346" y="0" width="109" height="105" frameX="0" frameY="0" frameWidth="99" frameHeight="95" />
-<SubTexture name="ExitHover0000" x="0" y="304" width="109" height="105" frameX="0" frameY="0" frameWidth="99" frameHeight="95" />
-<SubTexture name="GreenButton0000" x="109" y="304" width="289" height="335" frameX="0" frameY="-1" frameWidth="280" frameHeight="326" />
-<SubTexture name="GreenHover0000" x="398" y="304" width="286" height="333" frameX="-1" frameY="-1" frameWidth="277" frameHeight="325" />
-<SubTexture name="RedButton0000" x="0" y="639" width="279" height="253" frameX="-1" frameY="-2" frameWidth="270" frameHeight="246" />
-<SubTexture name="RedHover0000" x="279" y="639" width="278" height="251" frameX="-1" frameY="-1" frameWidth="270" frameHeight="242" />
-<SubTexture name="AlibiButton0000" x="557" y="639" width="311" height="352" frameX="-1" frameY="-1" frameWidth="303" frameHeight="343" />
-<SubTexture name="AlibiHover0000" x="0" y="991" width="307" height="348" frameX="0" frameY="0" frameWidth="298" frameHeight="338" />
+<SubTexture name="BlackButton0000" x="0" y="0" width="184" height="314" frameX="0" frameY="-1" frameWidth="164" frameHeight="295" />
+<SubTexture name="BlackHover0000" x="184" y="0" width="182" height="312" frameX="-1" frameY="-1" frameWidth="163" frameHeight="293" />
+<SubTexture name="ExitButton0000" x="366" y="0" width="119" height="115" frameX="0" frameY="0" frameWidth="99" frameHeight="95" />
+<SubTexture name="ExitHover0000" x="0" y="314" width="119" height="115" frameX="0" frameY="0" frameWidth="99" frameHeight="95" />
+<SubTexture name="GreenButton0000" x="119" y="314" width="299" height="344" frameX="0" frameY="-1" frameWidth="280" frameHeight="326" />
+<SubTexture name="GreenHover0000" x="418" y="314" width="296" height="343" frameX="-1" frameY="-1" frameWidth="277" frameHeight="325" />
+<SubTexture name="RedButton0000" x="0" y="659" width="289" height="263" frameX="-1" frameY="-2" frameWidth="270" frameHeight="246" />
+<SubTexture name="RedHover0000" x="289" y="659" width="288" height="261" frameX="-1" frameY="-1" frameWidth="270" frameHeight="242" />
+<SubTexture name="AlibiButton0000" x="577" y="659" width="321" height="362" frameX="-1" frameY="-1" frameWidth="303" frameHeight="343" />
+<SubTexture name="AlibiHover0000" x="0" y="1021" width="317" height="358" frameX="0" frameY="0" frameWidth="298" frameHeight="338" />
 </TextureAtlas>

@@ -9,7 +9,7 @@ function new() {
     if (FlxG.save.data.trackCredits == null) FlxG.save.data.trackCredits = true;
     if (FlxG.save.data.menuCrew == null) FlxG.save.data.menuCrew = true;
     if (FlxG.save.data.cameraDirection == null) FlxG.save.data.cameraDirection = null;
-    FlxG.save.data.beatAlibi ??= false;
+    FlxG.save.data.beatAlibi ??= false; // manages the window title heh
 
 //window title goes under here
     if (FlxG.save.data.beatAlibi == null || FlxG.save.data.beatAlibi == false) {
