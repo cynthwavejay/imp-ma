@@ -1,10 +1,10 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.6" name="countdown" folder="stages/skeld/countdown" startCamPosY="600" startCamPosX="1500">
+<stage zoom="0.65" name="countdown" folder="stages/skeld/countdown" startCamPosY="600" startCamPosX="1500">
+	<sprite name="space"       x="-600" y="0"    sprite="space"      scroll="0.7" />
 	<sprite name="base"       x="-600" y="0"    sprite="base"      scroll="1" />
-	<girlfriend x="1000" y="300"/>
-	<dad x="150" y="850" camxoffset="100" camyoffset="-100" />
-	<boyfriend x="1850"   y="850" camxoffset="-100" camyoffset="-100"/>
-	<sprite name="pipe"       x="-600" y="100"    sprite="pipe"      scroll="1" />
-	<sprite name="overlay1"       x="-600" y="0"    sprite="overlay1"      scroll="1" />
-	<sprite name="overlay2"       x="-600" y="0"    sprite="overlay2"      scroll="1" />
+	<girlfriend x="580" y="550" scroll="1"/>
+	<dad x="-150" y="550" camxoffset="100" camyoffset="-100" />
+	<boyfriend x="1300"   y="550" camxoffset="-100" camyoffset="-100"/>
+	<sprite name="overlay1"       x="-600" y="0"    sprite="vigenette"      scroll="1" />
+	<sprite name="overlay2"       x="-600" y="0"    sprite="lights"      scroll="1" 	alpha="0.5"/>
 </stage>
