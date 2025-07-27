@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="alibi" folder="stages/airship/alibi" startCamPosY="780" startCamPosX="565">
+	<sprite name="base"       x="-600" y="-250"    sprite="base"      scroll="1" />
+	<combo x="900" y="575"/>
+	<girlfriend x="1000" y="300" camxoffset="-650" camyoffset="-20" alpha="0" />
+	<dad x="-100" y="200" camxoffset="10" />
+	<char name="white" x="-150" y="250" camxoffset="10" />
+	<boyfriend x="1200" y="250"/>
+	<sprite name="overlay"    x="-600" y="0"   sprite="aura"   scroll="1"/>
+</stage>
