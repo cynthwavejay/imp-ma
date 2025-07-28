@@ -1,6 +1,7 @@
 <!DOCTYPE codename-engine-character>
 <character x="-100" y="160" sprite="white_impostor" scale="0.7" icon="white" color="#C99649" gameOverChar="bf" holdTime="6" isGF="false" camyoffset="50">
-	<anim name="idle" anim="WhiteIdle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="idle" anim="WhiteIdle" x="-3000" y="0" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="WhiteIdle" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singLEFT" anim="WhiteLeft" x="215" y="45" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="WhiteDown" x="55" y="-90" fps="24" loop="false"/>
 	<anim name="singUP" anim="WhiteUp" x="124" y="85" fps="24" loop="false"/>

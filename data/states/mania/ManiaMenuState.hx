@@ -74,7 +74,7 @@ function create(){
 	versionShit.y -= versionShit.height+70;
 	add(versionShit);
 
-	modVer = new FunkinText(1035, 725, 0, 'Impostor! Mania - V2');
+	modVer = new FunkinText(1035, 725, 0, 'Impostor! Mania - V3');
 	modVer.y -= modVer.height+70;
 	add(modVer);
 

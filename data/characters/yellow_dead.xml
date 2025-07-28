@@ -2,5 +2,5 @@
 <character x="-100" y="200" sprite="yellow_crewmate_dies" scale="0.7" camy="50" icon="white" color="#C9D5E4" gameOverChar="bf" holdTime="6" isGF="false">
 	<anim name="idle" anim="YellowIdle" x="0" y="0" fps="24" loop="false"/>
 	<anim name="shedies" anim="YellowDies" x="164" y="115" fps="24" loop="false" indices="1..29"/>
-	<anim name="idle-ALT" anim="YellowDead" x="156" y="-297" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="YellowDead" x="156" y="-297" fps="24" loop="false"/>
 </character>

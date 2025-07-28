@@ -10,4 +10,5 @@
 	<anim name="singRIGHTmiss" anim="MissRight" x="-241" y="-19" fps="24" loop="false"/>
 	<anim name="singDOWNmiss" anim="MissDown" x="-76" y="-127" fps="24" loop="false"/>
 	<anim name="alibilol" anim="MissRight" x="-241" y="-19" fps="24" loop="true" indices="2"/>
+	<anim name="hey" anim="BFHey" x="-65" y="60" fps="24" loop="false"/>
 </character>
