@@ -146,6 +146,11 @@ function update(elapsed){
 function stepHit(curStep){
     // ALIBI SONG NAME CHANGE THINGY
     if (SONG.meta.name == "alibi") {
+        if (curStep == 1264){
+            for (i in[missesTxt, scoreTxt, accuracyTxt, card, songText, composerText, charterText]){
+                i.color = 0xfff5f1f1;
+            }
+        }
         if (curStep == 1280){
             timeTxt.erase(0.1, true, [], function () {
                 timeTxt.resetText(PlayState.SONG.meta.displayName.toUpperCase());

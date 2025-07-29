@@ -14,7 +14,7 @@
 		</text>
 
 		<text beat="4">
-			<line text="Team ImpMania" />
+			<line text="Impostor Maniacs" />
 			<line text="Presents" />
 		</text>
 
@@ -41,7 +41,7 @@
 		<text beat="38">
 			<line text="Impostor" />
 			<line text="Mania" />
-			<line text="Activation" />
+			<line text="Kiiro" />
 		</text>
 	</intro>
 </titlestate>

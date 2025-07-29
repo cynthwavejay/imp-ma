@@ -1,3 +1,18 @@
+July XX, 2025 (Kiiro update)
+-1 new song
+-Freeplay portraits updated
+-Updated intro texts
+-Updated note textures
+-Sprite overhaul for; BF, Red, and Green
+-Events for Sussy Mania, and Activator updated
+-Updated settings
+-HUD changes
+-Credits update
+-Background characters for Activator updated
+-New game over Track
+-AYE NEED A HAND I AM MOTHERFUCKIN GERSON BOOM
+
+
 August 28, 2024 (Activator update)
 - 1 new song
 - Revamped Freeplay
