@@ -5,6 +5,9 @@ static var initialized:Bool = false;
 
 function new() {
     //default settings go under here
+
+    FlxG.save.bind("impMania", "impostor.mania");
+
     if (FlxG.save.data.windowTrack == null) FlxG.save.data.windowTrack = true;
     if (FlxG.save.data.trackCredits == null) FlxG.save.data.trackCredits = true;
     if (FlxG.save.data.menuCrew == null) FlxG.save.data.menuCrew = true;
