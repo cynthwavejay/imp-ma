@@ -4,13 +4,12 @@
 	"difficulties": [
 		"HARD"
 	],
-	"parsedColor": -1303267,
 	"customValues": {
 		"composer": "Snuts",
-		"trackNum": "1",
-		"charter": "Ryze"
+		"charter": "Ryze",
+		"trackNum": "1"
 	},
-	"color": "#EC1D1D",
+	"color": -1303267,
 	"name": "Sussy-Mania",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,

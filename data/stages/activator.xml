@@ -1,36 +1,15 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.5" name="activator" folder="stages/mira/activator" startCamPosY="900" startCamPosX="1500">
-	<sprite name="base"       x="0" y="0"    sprite="reactorBase"      scroll="1" />
-
-
-	<sprite name="beegball"       x="1150" y="0"    sprite="Ball"      scroll="1" 	scale="2.25">
-		<anim name="surge" anim="surge" loop="true" />
-	</sprite>
-
-	<sprite name="ballHold"       x="0" y="0"    sprite="ballsThatHoldBeegBall"      scroll="1" />
-
-
-
-	<sprite name="dash"       x="0" y="0"    sprite="dashboardnstuff"      scroll="1" />
-
-	<sprite name="engi"       x="350" y="550"    sprite="engineer"      scroll="1" scale="0.725">
-		<anim name="engi" anim="engineerdance" type="onBeat" 	beatInterval="2" />
-	</sprite>
-	<sprite name="yell"       x="1950" y="550"    sprite="yellow"      scroll="1" scale="0.725">
-		<anim name="yell" anim="yellowdance" type="onBeat" 	beatInterval="2" />
-	</sprite>
-
-	<combo x="1675" y="775"/>
-	<girlfriend x="1200" y="600" scroll="1" camxoffset="-130" camyoffset="0"/>
-	<dad x="650" y="575" camyoffset="50" camxoffset="120"/>
-	<boyfriend x="1800" y="600" camyoffset="50" camxoffset="-70"/>
-
-	<sprite name="remo"       x="-300" y="900"    sprite="removed"      scroll="1" scale="0.725">
-		<anim name="remo" anim="removeddance" type="onBeat" 	beatInterval="2" />
-	</sprite>	
-		<sprite name="ryze"       x="2250" y="850"    sprite="ryze"      scroll="1" scale="0.725">
-		<anim name="ryze" anim="ryzedance" type="onBeat" 	beatInterval="2"  />
-	</sprite>
-
-	<sprite name="overlay"    x="0" y="0"   sprite="lighting"   scroll="1" />
+<stage startCamPosX="1500" startCamPosY="900" folder="stages/mira/activator/" zoom="0.5" name="activator">
+	<sprite sprite="reactorBase" name="base"/>
+	<sprite scale="2.25" x="1150" sprite="Ball" name="beegball"/>
+	<sprite sprite="ballsThatHoldBeegBall" name="ballHold"/>
+	<sprite sprite="dashboardnstuff" name="dash"/>
+	<sprite x="350" sprite="engineer" y="550" scale="0.725" name="engi"/>
+	<sprite x="1950" sprite="yellow" y="550" scale="0.725" name="yell"/>
+	<girlfriend camxoffset="-130" x="1200" scroll="1" y="600"/>
+	<dad camxoffset="120" x="757.480230740355" camyoffset="50" y="541.058874503046"/>
+	<boyfriend camxoffset="-70" x="1800" camyoffset="50" y="600"/>
+	<sprite x="-300" sprite="removed" y="900" scale="0.725" name="remo"/>
+	<sprite x="2250" sprite="ryze" y="850" scale="0.725" name="ryze"/>
+	<sprite sprite="lighting" name="overlay"/>
 </stage>

@@ -1,14 +1,14 @@
 <!DOCTYPE codename-engine-character>
 <character x="-150" y="240" sprite="BFManiaV3" scale="0.735" flipX="true" isPlayer="true" icon="azure" color="#3E5587" gameOverChar="deathreal" holdTime="6" isGF="false">
-	<anim name="idle" anim="BFIdle" x="-5" y="0" fps="24" loop="false"/>
-	<anim name="singUP" anim="BFUp" x="-69" y="79" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="BFLeft" x="-9" y="-24" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="BFRight" x="-173" y="-23" fps="24" loop="false"/>
-	<anim name="singDOWN" anim="BFDown" x="-60" y="-101" fps="24" loop="false"/>
-	<anim name="singUPmiss" anim="MissUp" x="-141" y="39" fps="24" loop="false"/>
-	<anim name="singLEFTmiss" anim="MissLeft" x="-70" y="-29" fps="24" loop="false"/>
-	<anim name="singRIGHTmiss" anim="MissRight" x="-241" y="-19" fps="24" loop="false"/>
-	<anim name="singDOWNmiss" anim="MissDown" x="-76" y="-127" fps="24" loop="false"/>
-	<anim name="alibilol" anim="MissRight" x="-241" y="-19" fps="24" loop="true" indices="2"/>
-	<anim name="hey" anim="BFHey" x="-65" y="60" fps="24" loop="false"/>
+	<anim name="idle" anim="BFIdle" x="-5"/>
+	<anim name="singUP" anim="BFUp" x="-69" y="79"/>
+	<anim name="singLEFT" anim="BFLeft" x="-9" y="-24"/>
+	<anim name="singRIGHT" anim="BFRight" x="-173" y="-23"/>
+	<anim name="singDOWN" anim="BFDown" x="-60" y="-101"/>
+	<anim name="singUPmiss" anim="MissUp" x="-141" y="39"/>
+	<anim name="singLEFTmiss" anim="MissLeft" x="-63.2" y="-29"/>
+	<anim name="singRIGHTmiss" anim="MissRight" x="-245.08" y="-21.72"/>
+	<anim name="singDOWNmiss" anim="MissDown" x="-84.16" y="-121.56"/>
+	<anim name="alibilol" anim="MissRight" x="-246.44" y="-23.08" loop="true" indices="2"/>
+	<anim name="hey" anim="BFHey" x="-66.36" y="60"/>
 </character>

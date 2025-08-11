@@ -1,21 +1,20 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 210,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -8162819,
-	"displayName": "Overtaken",
 	"icon": "black",
+	"coopAllowed": false,
 	"name": "overtaken",
-	"color": "#8371FD",
+	"color": -8162819,
 	"customValues": {
 		"composer": "Mali",
-		"charter": "Ryze",
-		"trackNum": "???"
-	}
+		"trackNum": "???",
+		"charter": "Ryze"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Overtaken",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 210
 }
