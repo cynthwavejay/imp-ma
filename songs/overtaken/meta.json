@@ -1,17 +1,16 @@
 {
+	"customValues": {
+		"composer": "Mali",
+		"charter": "Ryze",
+		"trackNum": "???"
+	},
+	"color": "#8371FD",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"HARD"
 	],
 	"icon": "black",
 	"coopAllowed": false,
-	"name": "overtaken",
-	"color": -8162819,
-	"customValues": {
-		"composer": "Mali",
-		"trackNum": "???",
-		"charter": "Ryze"
-	},
 	"stepsPerBeat": 4,
 	"displayName": "Overtaken",
 	"needsVoices": true,

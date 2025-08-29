@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-350" sprite="blacktaunt" camx="200" camy="-300" icon="black" color="#000000">
+	<anim name="idle" anim="BlackTaunt" indices="0"/>
+	<anim name="BlackTaunt" anim="BlackTaunt"/>
+</character>

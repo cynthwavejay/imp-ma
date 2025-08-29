@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-100" y="160" sprite="grey_crewmate" scale="0.7" color="#C99649" gameOverChar="bf" holdTime="6" isGF="false">
+<character x="-100" y="160" sprite="grey_crewmate" scale="0.7" color="#313234" gameOverChar="bf" holdTime="6" isGF="false">
 	<anim name="idle" anim="GreyIdle"/>
 	<anim name="singLEFT" anim="GreyLeft" x="258.57" y="16.43"/>
 	<anim name="singDOWN" anim="GreyDown" x="-126" y="-28"/>

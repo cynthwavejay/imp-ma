@@ -31,12 +31,7 @@ function create(){
 	CoolUtil.playMenuSong();
 	Script.staticVariables.set('skipTitleIntro', true);
 	FlxG.mouse.visible = false;
-	// REMOVE IN V4 -snuts
-	if (FlxG.save.data.beatAlibi == null || FlxG.save.data.beatAlibi == false) {
-		window.title = "Impostor! Mania - V3 ( Kiiro update )";
-	} else {
-		window.title = "Impostor! Mania - V3 ( Alibi update )";
-	}
+	// dw i removed it snuts
 	
 
 	// loads sounds in for no lag when selecting something
